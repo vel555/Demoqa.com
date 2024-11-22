@@ -26,10 +26,13 @@ public class PracticeForm {
         $("#firstName").shouldHave(value("vasa"));
         $("#lastName").setValue("ivanov");
         $("#lastName").shouldHave(value("ivanov"));
+        $("#userEmail").scrollTo();
         $("#userEmail").setValue("ivanov@mail.ru");
         $("#userEmail").shouldHave(value("ivanov@mail.ru"));
+        $("label[for='gender-radio-1']").scrollTo();
         $("label[for='gender-radio-1']").click();
         $("#gender-radio-1").shouldBe(checked);
+        $("#userNumber").scrollTo();
         $("#userNumber").setValue("2912345678");
         $("#userNumber").shouldHave(value("2912345678"));
         $("label[for='hobbies-checkbox-3']").scrollTo();
