@@ -2,8 +2,8 @@ package test;
 
 import org.junit.jupiter.api.BeforeAll;
 import pages.RegistrationPage;
+import com.codeborne.selenide.Configuration;
 
-import java.lang.module.Configuration;
 
 public class BaseTest {
 
